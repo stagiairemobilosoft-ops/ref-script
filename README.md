@@ -1,5 +1,7 @@
 # ref-script
 
+
+
 ## constants/
 |       Fichier                |           Classes           |          Fonctions          |
 |------------------------------|-----------------------------|-----------------------------|
@@ -30,3 +32,52 @@
 |------------------------------|-----------------------------|-----------------------------|
 |          progress.py         |-ProgressReporter            |- update                     | 
 |                              |                             |- finish                     |
+
+
+|       Fichier                |           Classes           |          Fonctions          |
+|------------------------------|-----------------------------|-----------------------------|
+|        utils.py              |                             |- print-stage                | 
+|                              |                             |- print_setp_done            |
+|                              |                             |- normalize_cell             | 
+
+## export
+|       Fichier                |           Classes           |          Fonctions          |
+|------------------------------|-----------------------------|-----------------------------|
+|     excel_export.py          |                             |- _cell_display_length()     | 
+|                              |                             |- autofit_columns()          |
+|                              |                             |- write_excel()              | 
+|                              |                             |- write_workbook()           |
+|                              |                             |- split_address()            | 
+|                              |                             |- _join_regular_hours()      |
+|                              |                             |- to_result_layout()         |
+|                              |                             |- build_sync_file()          |
+|                              |                             |- _sync_columns              |
+|                              |                             |- with_action                |
+
+
+|       Fichier                |           Classes           |          Fonctions          |
+|------------------------------|-----------------------------|-----------------------------|
+|         log.py               |                             |- build_analysis_summary()   | 
+|                              |                             |- write_analysis_workbook()  | 
+|                              |                             |- timestamp()                | 
+|                              |                             |- timestamped_log_path()     |
+|                              |                             |- timestamped_analysis_path()|
+|                              |                             |- write_log()                |
+
+
+|       Fichier                |           Classes           |          Fonctions          |
+|------------------------------|-----------------------------|-----------------------------|
+|      cmd.py                  |                             |- cmd_compare()              | 
+|                              |                             |- cmd_validate()             | 
+|                              |                             |- _ensure_output_dirs ()     | 
+
+
+
+## validation
+|       Fichier                |           Classes           |          Fonctions          |
+|------------------------------|-----------------------------|-----------------------------|
+|        quality_check.py      |                             |- _issue()                   | 
+|                              |                             |- _to_float                  | 
+|                              |                             |- deduplicate_stores         | 
+|                              |                             |- find_data_quality_issues() | 
+
