@@ -1,6 +1,6 @@
 # ref-script
 
-constants/
+## constants/
 |       Fichier                |           Classes           |          Fonctions          |
 |------------------------------|-----------------------------|-----------------------------|
 |       constant.py            |variable :STORE_ID_COLUMN / FILE_COLUMNS / SYNC_FIELDS /   |  
@@ -10,10 +10,10 @@ constants/
 |                              |DEFAULT_COMPARE_OUTPUT / DEFAULT_VALIDATE_OUTPUT /         |
 |                              |ACTION_NO_CHANGE / ACTION_UPDATE / ACTION_CREATE /         |
 |                              |ACTION_CLOSE / ACTION_COLUMN                               | 
-normalize/ 
+## normalize/ 
 |       Fichier                |           Classes           |          Fonctions          |
 |------------------------------|-----------------------------|-----------------------------|
-|      file_loader.py          |-LoadError                   | - _is_client_format()        |
-|                              |                             | - _find_data_sheet()         | 
-|                              |                             | - _normalize_raw_dataframe() |
-|                              |                             | - load_store_file()          |
+|      file_loader.py          |-LoadError                   | - _is_client_format()       |
+|                              |                             | - _find_data_sheet()        | 
+|                              |                             | - _normalize_raw_dataframe()|
+|                              |                             | - load_store_file()         |
