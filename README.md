@@ -1,2 +1,2 @@
 # ref-script
-Dossier    |        Fichier                |           Classes           |          Fonctions          |
+| Dossier    |        Fichier                |           Classes           |          Fonctions          |
