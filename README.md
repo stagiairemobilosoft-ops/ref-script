@@ -1,6 +1,8 @@
 # ref-script
 
-
+|       Fichier                |           Classes           |          Fonctions          |
+|------------------------------|-----------------------------|-----------------------------|
+|       main.py                |                             |- main()                     | 
 
 ## constants/
 |       Fichier                |           Classes           |          Fonctions          |
@@ -40,7 +42,7 @@
 |                              |                             |- print_setp_done            |
 |                              |                             |- normalize_cell             | 
 
-## export
+## export/
 |       Fichier                |           Classes           |          Fonctions          |
 |------------------------------|-----------------------------|-----------------------------|
 |     excel_export.py          |                             |- _cell_display_length()     | 
@@ -73,7 +75,7 @@
 
 
 
-## validation
+## validation/
 |       Fichier                |           Classes           |          Fonctions          |
 |------------------------------|-----------------------------|-----------------------------|
 |        quality_check.py      |                             |- _issue()                   | 
