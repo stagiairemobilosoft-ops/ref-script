@@ -17,3 +17,16 @@
 |                              |                             | - _find_data_sheet()        | 
 |                              |                             | - _normalize_raw_dataframe()|
 |                              |                             | - load_store_file()         |
+
+## comparison/
+|       Fichier                |           Classes           |          Fonctions          |
+|------------------------------|-----------------------------|-----------------------------|
+|   compare.py                 |-ComparisonResult            |- _index_by_store()          | 
+|                              |                             |- _rows_to_dataframe()       | 
+|                              |                             |- compare_store_files()      |          
+
+ 
+|       Fichier                |           Classes           |          Fonctions          |
+|------------------------------|-----------------------------|-----------------------------|
+|          progress.py         |-ProgressReporter            |- update                     | 
+|                              |                             |- finish                     |
